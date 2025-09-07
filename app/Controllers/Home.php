@@ -16,6 +16,12 @@ class Home extends BaseController
 
     public function servicios(): string
     {
-        return view('servicios');
+        $data = [
+            'meta_title' => 'Servicios | Guerrero Abogados',
+            'meta_description' => 'Descubre los servicios jurídicos que ofrecemos: derecho comercial, familiar, laboral y penal en Colombia.',
+            'meta_keywords' => 'servicios jurídicos, abogados, derecho comercial, derecho familiar, derecho laboral, derecho penal',
+        ];
+
+        return view('servicios', $data);
     }
 }

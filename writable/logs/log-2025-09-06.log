@@ -1,0 +1,127 @@
+CRITICAL - 2025-09-06 21:11:28 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: servicios]
+in APPPATH\Views\servicios.php on line 266.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('servicios', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('servicios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->servicios()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\public\\index.php')
+CRITICAL - 2025-09-06 21:11:31 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: servicios]
+in APPPATH\Views\servicios.php on line 266.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('servicios', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('servicios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->servicios()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\public\\index.php')
+CRITICAL - 2025-09-06 21:11:39 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: servicios]
+in APPPATH\Views\servicios.php on line 266.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('servicios', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('servicios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->servicios()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\public\\index.php')
+CRITICAL - 2025-09-06 21:11:39 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: servicios]
+in APPPATH\Views\servicios.php on line 266.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('servicios', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('servicios', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->servicios()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\public\\index.php')
+CRITICAL - 2025-09-06 21:24:45 --> ErrorException: Undefined variable $servicios
+[Method: GET, Route: servicios]
+in APPPATH\Views\servicios.php on line 122.
+ 1 APPPATH\Views\servicios.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $servicios', 'C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\app\\Views\\servicios.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\app\\Views\\servicios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('servicios', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('servicios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->servicios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\public\\index.php')
+CRITICAL - 2025-09-06 21:24:47 --> ErrorException: Undefined variable $servicios
+[Method: GET, Route: servicios]
+in APPPATH\Views\servicios.php on line 122.
+ 1 APPPATH\Views\servicios.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $servicios', 'C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\app\\Views\\servicios.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\app\\Views\\servicios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('servicios', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('servicios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->servicios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\public\\index.php')
+CRITICAL - 2025-09-06 21:24:48 --> ErrorException: Undefined variable $servicios
+[Method: GET, Route: servicios]
+in APPPATH\Views\servicios.php on line 122.
+ 1 APPPATH\Views\servicios.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $servicios', 'C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\app\\Views\\servicios.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\app\\Views\\servicios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('servicios', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('servicios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->servicios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\public\\index.php')
+CRITICAL - 2025-09-06 21:25:03 --> ErrorException: Undefined variable $servicios
+[Method: GET, Route: servicios]
+in APPPATH\Views\servicios.php on line 122.
+ 1 APPPATH\Views\servicios.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $servicios', 'C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\app\\Views\\servicios.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\app\\Views\\servicios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('servicios', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('servicios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->servicios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\public\\index.php')
+CRITICAL - 2025-09-06 21:25:24 --> ErrorException: Undefined variable $servicios
+[Method: GET, Route: servicios]
+in APPPATH\Views\servicios.php on line 122.
+ 1 APPPATH\Views\servicios.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $servicios', 'C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\app\\Views\\servicios.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\app\\Views\\servicios.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('servicios', [], true)
+ 5 APPPATH\Controllers\Home.php(25): view('servicios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->servicios()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\dpere\\Documents\\Señor_German\\guerreroabogados\\public\\index.php')

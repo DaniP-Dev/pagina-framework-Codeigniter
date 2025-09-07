@@ -15,9 +15,9 @@
 		}
 	</style>
 	<meta charset="UTF-8">
-	<title><?= isset($meta_title) ? esc($meta_title) : 'Mi sitio con Bootstrap' ?></title>
-	<meta name="description" content="<?= isset($meta_description) ? esc($meta_description) : 'Bufete jurídico especializado en derecho comercial, familia, laboral y penal en Colombia.' ?>">
-	<meta name="keywords" content="<?= isset($meta_keywords) ? esc($meta_keywords) : 'abogados, derecho, Colombia, comercial, familia, penal, laboral' ?>">
+	<title><?= isset($meta_title) ? esc($meta_title) : 'Título por defecto' ?></title>
+	<meta name="description" content="<?= isset($meta_description) ? esc($meta_description) : 'Descripción por defecto' ?>">
+	<meta name="keywords" content="<?= isset($meta_keywords) ? esc($meta_keywords) : 'palabras, clave, por, defecto' ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Bootstrap CSS (CDN) -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
